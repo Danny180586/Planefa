@@ -130,13 +130,12 @@ public class JFProgramacionEvaluacionesAmbientales extends javax.swing.JFrame {
         jTable1.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"1", "Emisión de resoluciones finales de primera instancia de procedimientos iniciados el año anterior a la ejecución del planefa ", "NINGUNO", "Expediente concluido", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "4", "3,000.00"},
-                {"2", "Emisión de resoluciones finales de primera instancia de procedimientos iniciados dos años antes de la ejecución del planefa", "NINGUNO", "Expediente concluido", "2", "2", "4", "0", "0", "0", "0", "0", "0", "0", "0", "0", "8", "30,000.00"},
-                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "", "", ""},
+                {"1", "Evaluación de la calidad ambiental", "Monitoreo", "INFORME DE EVALUACIÓN", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0.00"},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, "Totales: ", "0", "0.00"},
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "N°", "Actividad Operativa(**)", "Sector(***)", "Unidad de Medida", "Ene", "Feb", "Mar", "Abril", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic", "Meta Fisica Anual", "Presupuesto Anual (S/.)"
+                "N°", "Actividad Operativa(**)", "Tipo de evaluacion(**)(***)", "Unidad de Medida", "Ene", "Feb", "Mar", "Abril", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic", "Meta Fisica Anual", "Presupuesto Anual (S/.)"
             }
         ));
         jScrollPane1.setViewportView(jTable1);
